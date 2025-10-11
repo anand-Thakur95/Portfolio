@@ -1,7 +1,7 @@
 import React from 'react'
 import { Card } from '@/components/ui/card'
 import BlogImage from '../assets/BlogImage.jpg'
-import ChatImage from '../assets/ChatImage.jpg'
+import ChatImage from '../assets/chatImage.jpg'
 import ToDoImage from '../assets/ToDoImage.jpg'
 import voiceImage from '../assets/voiceImage.jpg'
 import { Button } from '@/components/ui/button'
