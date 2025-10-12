@@ -2,7 +2,7 @@ import React from 'react'
 import { Button } from '@/components/ui/button'
 import heroImage from "../assets/hero-bg.jpg"
 import { ArrowDown, Github, Linkedin, Mail, Download } from 'lucide-react'
-import Resume from "../assets/AnandThakurFullStack1.03.pdf"
+import Resume from "../assets/Anand_mern_1.0.pdf"
 function Home() {
 
     const scrollToAbout = () => {
@@ -65,7 +65,7 @@ Learn more About me
    <Mail/>
    </Button>
 
-   <Button className="bg-white dark:text-white dark:bg-gray-900 text-primary  hover:bg-gray-200 dark:hover:bg-gray-800 cursor-pointer  shadow-large"
+   <Button title="download resume" className="bg-white dark:text-white dark:bg-gray-900 text-primary hover:  hover:bg-gray-200 dark:hover:bg-gray-800 cursor-pointer  shadow-large"
      onClick={() => {
       const link = document.createElement('a');
       link.href = Resume; 
