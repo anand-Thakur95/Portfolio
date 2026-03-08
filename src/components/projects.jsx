@@ -1,20 +1,34 @@
 import React from "react";
 import { Card } from "@/components/ui/card";
-import BlogImage from "../assets/BlogImage.jpg";
-import ChatImage from "../assets/chatImage.jpg";
-import ToDoImage from "../assets/ToDoImage.jpg";
-import voiceImage from "../assets/voiceImage.jpg";
 import { Button } from "@/components/ui/button";
 import { ExternalLink, Github } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 
 function Projects() {
   const projects = [
+
+    {
+      title: "Cloud Base Task Management",
+      description:
+        "A Cloud-Based Task Management System is a web application that helps individuals and teams create, organize, and track tasks in real time. It allows users to assign tasks, set priorities, and monitor progress from anywhere through the internet, improving productivity and collaboration.",
+      image:"https://res.cloudinary.com/dgmoa4vas/image/upload/v1772946774/image-wm_2_d94ys6.png",
+      technologies: [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Express",
+        "Tailwind CSS",
+        "RESTful APIs",
+        "Redux"
+      ],
+      liveLink: "https://cloud-based-task-manager-4mui.vercel.app",
+      githubLink: "https://github.com/anand-Thakur95/Cloud-Based-Task-Manager",
+    },
     {
       title: "Online Blogging System",
       description:
         "A blog system  that allow user to read ,write and share posts online as they are called blog posts.",
-      image: BlogImage,
+      image: "https://res.cloudinary.com/dgmoa4vas/image/upload/v1772946722/BlogImage_jkwbgw.jpg",
       technologies: [
         "React",
         "Node.js",
@@ -30,7 +44,7 @@ function Projects() {
       title: "Chat-app",
       description:
         "A chat application that allows users to send and receive messages in real-time.",
-      image: ChatImage,
+      image: "https://res.cloudinary.com/dgmoa4vas/image/upload/v1772946721/chatImage_bcubvp.jpg",
       technologies: [
         "React",
         "Node.js",
@@ -46,7 +60,7 @@ function Projects() {
       title: "scribe(voice-to-text)",
       description:
         "A voice-to-text application that allows users to convert their speech to text.",
-      image: voiceImage,
+      image: "https://res.cloudinary.com/dgmoa4vas/image/upload/v1772946751/voiceImage_crpv6w.jpg",
       technologies: ["React", "Tailwind CSS", "RESTful APIs"],
       liveLink: "https://scribe-voice-to-text.netlify.app",
       githubLink: "https://github.com/anand-Thakur95/Scribe-Voice-to-text",
@@ -55,7 +69,7 @@ function Projects() {
       title: "To-Do-List",
       description:
         "A to-do list application that allows users to create, edit, and delete tasks.",
-      image: ToDoImage,
+      image: "https://res.cloudinary.com/dgmoa4vas/image/upload/v1772946723/ToDoImage_wxcl9c.jpg",
       technologies: ["React", "Tailwind CSS"],
       liveLink: "https://todo-list-apptest.netlify.app",
       githubLink: "https://github.com/anand-Thakur95/reactjs-todolist",
