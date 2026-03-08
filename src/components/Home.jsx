@@ -2,7 +2,7 @@ import React from 'react'
 import { Button } from '@/components/ui/button'
 import heroImage from "../assets/hero-bg.jpg"
 import { ArrowDown, Github, Linkedin, Mail, Download } from 'lucide-react'
-import Resume from "../assets/Anand_marn_1.0.pdf"
+import Resume from "../assets/Anand_mern_1.03.pdf"
 function Home() {
 
     const scrollToAbout = () => {
