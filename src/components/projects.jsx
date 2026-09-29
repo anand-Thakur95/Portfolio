@@ -7,6 +7,26 @@ import { Badge } from "@/components/ui/badge";
 function Projects() {
   const projects = [
 
+      {
+      title: "AI Interview practice site",
+      description:
+        "AI Interviewer is a full-stack AI-powered mock interview platform that enables users to practice interviews, receive AI-driven performance feedback, and track their progress. It includes Google authentication, timed AI interviews, credit-based plans, and an integrated payment gateway for premium features.",
+      image:"https://res.cloudinary.com/dgmoa4vas/image/upload/v1790703584/ChatGPT_Image_Sep_29_2026_11_07_43_PM_dq65di.png",
+      technologies: [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Express",
+        "Tailwind CSS",
+        "RESTful APIs",
+        "Redux",
+        "AI API",
+        "Payment Gateway"
+      ],
+      liveLink: "https://ai-interviewer-silk-five.vercel.app",
+      githubLink: "https://github.com/anand-Thakur95/AI-Interviewer",
+    },
+
     {
       title: "Cloud Base Task Management",
       description:
